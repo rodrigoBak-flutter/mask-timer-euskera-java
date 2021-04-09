@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_main_mt"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="17dp"
+    tools:context=".MaskFinishedActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_newmask1" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_newmask" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="65dp"
+        android:orientation="horizontal"
+        android:padding="7dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_weight="50"
+            android:padding="5dp"
+            app:srcCompat="@drawable/mask1" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_weight="50"
+            android:padding="5dp"
+            app:srcCompat="@drawable/mask2" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNewmask"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_btn_newmask" />
+</LinearLayout>

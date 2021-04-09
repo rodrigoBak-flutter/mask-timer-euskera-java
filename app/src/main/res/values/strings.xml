@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Mask timer</string>
+
+    <string name="msg_main_title">Aukeratu zure maskara: </string>
+
+    <string name="msg_splash_cargando">Kargatzen ...: </string>
+
+    <string name="msg_main_ffp2">FFP2 = 8h</string>
+    <string name="msg_main_surgical">Kirurgikoa = 4h</string>
+
+    <string name="msg_ffp2_title">FFP2 = 8h</string>
+    <string name="msg_ffp2_countdown">Atzerako kontaketa:</string>
+    <string name="msg_ffp2_hourMinuteSecond">00 : 00 : 00</string>
+    <string name="msg_ffp2_play">Maskara jantzi nuen</string>
+    <string name="msg_ffp2_pause">Maskara kendu nuen</string>
+
+
+    <string name="msg_newmask1">Zure maskara iraungi egin da</string>
+    <string name="msg_newmask">JARRI MASKARA BERRIA !!!</string>
+    <string name="msg_btn_newmask">Maskara berria</string>
+
+
+
+    <string name="msg_currentmask">Uneko maskara:</string>
+
+
+    <string name="txt_mask_edit_resume">JARRAITU</string>
+    <string name="txt_mask_edit_pause">PAUSA</string>
+
+    <string name="txt_mask_edit_tipo">Maskara mota: %s</string>
+    <string name="txt_mask_edit_inicio">Hasiera data:: %s</string>
+    <string name="txt_mask_edit_consumido">Galdutako denbora: %s</string>
+    <string name="txt_mask_edit_restante">Geratzen den denbora: %s</string>
+
+
+    <string name="dlg_estrenar_mask">Maskara berria atera nahi al duzu?</string>
+
+    <string name="dlg_mask_finish_title">Amaitutako Maskara</string>
+    <string name="dlg_mask_finish_msg">Maskara baztertu nahi duzu?</string>
+    <string name="txt_btn_MaskFinish">AMAITU</string>
+
+
+
+</resources>
